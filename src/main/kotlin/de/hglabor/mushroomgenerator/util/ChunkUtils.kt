@@ -19,7 +19,7 @@ fun Chunk.highestValidBlockAt(x: Int, z: Int): Double {
     var y = 254.0
     repeat(180) { cY ->
         val it = getBlock(x, cY, z)
-        if (it.type == Material.SNOW_BLOCK || it.type == Material.MYCEL || it.type == Material.DIRT || it.type == Material.GRASS || it.type == Material.LONG_GRASS || it.type == Material.STONE) {
+        if (it.type == Material.SNOW_BLOCK || it.type == Material.MYCEL || it.type == Material.DIRT || it.type == Material.GRASS || it.type == Material.LONG_GRASS || it.type == Material.STONE && it.type == Material.DEAD_BUSH) {
             y = cY.toDouble()
         }
     }
