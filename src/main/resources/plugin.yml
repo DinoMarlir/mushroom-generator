@@ -1,0 +1,4 @@
+name: mushroom-generator
+description: Increases mushroom chance with super hacky code
+main: de.hglabor.mushroomgenerator.Manager
+version: 1.0
