@@ -1,4 +1,5 @@
 name: mushroom-generator
+load: STARTUP
 description: Increases mushroom chance with super hacky code
 main: de.hglabor.mushroomgenerator.Manager
 version: 1.0
